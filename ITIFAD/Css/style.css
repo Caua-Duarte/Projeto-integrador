@@ -6,6 +6,12 @@
 body{
     width: 80%;
     margin: auto;
+    background: transparent url('../Img/tomoko-uji-qzoSJlPxS9k-unsplash.jpg') no-repeat left bottom;
+}
+
+#container{
+    box-shadow: 0.2em 0.1em 0.3em #77ABD9;
+    background-color: #AED3F2;
 }
 
 #navbarNavDropdown{
@@ -17,6 +23,7 @@ body{
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    background-color: #AEB1F2;
 }
 
 
@@ -41,7 +48,7 @@ body{
 }
 
 .sombra-div{
-    box-shadow: 0.2em 0.2em 0.5em blueviolet;
+    box-shadow: 0.2em 0.2em 0.5em #AEB1F2;
 }
 .shadow{
     box-shadow: 0.2em 0.2em 0.5em rgb(0, 0, 0);
@@ -82,6 +89,7 @@ body{
 li{
     border: none;
     list-style-type: none;
+    text-decoration: unset;
 
 }
 
@@ -112,12 +120,10 @@ li{
 }
 
 .vetor{
-    width: 80%;
+    width: 60%;
 }
 
-#container{
-    background-color: #BFD9D7;
-}
+
 
 .venda{
     background-color: antiquewhite;
@@ -134,7 +140,41 @@ li{
 
 .rodape{
     width: 33%;
-    background-color: brown;
+    background-color: #AEB1F2;
+    padding: 0.2rem;
+    text-align: center;
+    height: 50%;
+}
+.lista{
     padding: 1rem;
     text-align: center;
+
+}
+
+.padding{
+    padding: 1rem;
+}
+
+.titulo-h5{
+
+    padding: 0.5rem;
+}
+.sep_rodape{
+    padding: 1rem;
+
+}
+.footer{
+    padding-bottom: 1rem;
+}
+
+
+
+.container{
+    background-color: #AEB1F2;
+
+}
+
+.vetores{
+      padding: 1rem;
+    text-align: justify;
 }
