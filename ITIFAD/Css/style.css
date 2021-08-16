@@ -125,10 +125,11 @@ li{
 
 
 .venda{
-    background-color: rgb(255, 1, 1);
-    padding: 0.5rem;
-    padding-bottom: 1rem;
-    width: 90%;
+    background-color: whitesmoke;
+    padding: 0.2rem;
+
+    width: 100%;
+    margin: auto;
 }
 
 .separacao-bloco{
@@ -208,7 +209,7 @@ li{
 }
 
 .separacao-venda{
-    background-color: violet;
+
     padding: 1rem;
     width: 100%;
     margin: auto;
