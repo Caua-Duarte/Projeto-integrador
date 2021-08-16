@@ -23,10 +23,8 @@ body{
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    background-color: #AEB1F2;
+
 }
-
-
 
 .separacao{
     padding: 1rem;
@@ -42,7 +40,7 @@ body{
 }
 
 .conteudo{
-    width: 60%;
+    width: 80%;
     margin: auto;
     text-align: justify;
 }
@@ -56,7 +54,7 @@ body{
 
 .titulo{
     text-align: center;
-
+    
 }
 .titulo1{
     text-align: left;
@@ -68,7 +66,7 @@ body{
 }
 
 .mais_vendidos{
-    width: 60%;
+    width: 80%;
     margin: auto;
     text-align: center;
     padding: 1rem;
@@ -78,7 +76,6 @@ body{
     width: 80%;
     margin: auto;
     padding: 1rem;
-
 }
 
 .roupas-container img{
@@ -116,22 +113,27 @@ li{
 
 
 .img-main{
-    width: 50%;
+    width: 100%;
+    margin: auto;
 }
 
 .vetor{
     width: 60%;
+    padding: 0.2rem;
 }
 
 
 
 .venda{
-    background-color: antiquewhite;
-
+    background-color: rgb(255, 1, 1);
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    width: 90%;
 }
 
-.separcao-bloco{
+.separacao-bloco{
     padding: 1rem;
+    background-color: whitesmoke;
 }
 
 .paragrafo{
@@ -140,10 +142,10 @@ li{
 
 .rodape{
     width: 33%;
-    background-color: #AEB1F2;
     padding: 0.2rem;
     text-align: center;
     height: 50%;
+
 }
 .lista{
     padding: 1rem;
@@ -156,7 +158,6 @@ li{
 }
 
 .titulo-h5{
-
     padding: 0.5rem;
 }
 .sep_rodape{
@@ -164,17 +165,51 @@ li{
 
 }
 .footer{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
-
-
 .container{
-    background-color: #AEB1F2;
+    background-color: #ffffff;
 
 }
 
 .vetores{
-      padding: 1rem;
+    padding: 1rem;
     text-align: justify;
+    margin: auto;
+}
+
+.logo{
+
+    width: 60%;
+
+}
+
+.social{
+   text-align: center;
+    height: 100%;
+}
+
+.lista-logo{
+    display: flex;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+}
+
+.carosel-bt{
+    width: 80%;
+    margin: auto;
+}
+
+.bt{
+    background-color: black;
+}
+
+.separacao-venda{
+    background-color: violet;
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
 }
