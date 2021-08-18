@@ -92,12 +92,16 @@ li{
 
 .roupa-preco{
     width: 80%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align:middle;
+    text-align: center ;
 }
 
 .preco{
-    float: left;
     padding: 0.5rem;
+    margin: auto;
+    text-align:center;
 }
 
 .favorito{
@@ -118,8 +122,9 @@ li{
 }
 
 .vetor{
-    width: 60%;
-    padding: 0.2rem;
+    width: 80%;
+    padding: 0.5rem;
+    
 }
 
 
@@ -127,7 +132,6 @@ li{
 .venda{
     background-color: whitesmoke;
     padding: 0.2rem;
-
     width: 100%;
     margin: auto;
 }
@@ -176,8 +180,9 @@ li{
 }
 
 .vetores{
-    padding: 1rem;
-    text-align: justify;
+    padding: 0.51rem;
+    text-align: center;
+    width: 90%;
     margin: auto;
 }
 
@@ -188,15 +193,17 @@ li{
 }
 
 .social{
-   text-align: center;
+    text-align: center;
+
     height: 100%;
 }
 
 .lista-logo{
     display: flex;
-    text-align: justify;
-    width: 70%;
+    text-align: center;
+    width: 100%;
     margin: auto;
+
 }
 
 .carosel-bt{
@@ -212,5 +219,22 @@ li{
 
     padding: 1rem;
     width: 100%;
+    margin: auto;
+}
+
+.icon-favi{
+    text-align: center;
+    float: right;
+}
+
+.vetor-header{
+    width: 20%;
+    margin: auto;
+    background-color: teal;
+}
+
+.list-vetor{
+    text-align: center;
+    width: 90%;
     margin: auto;
 }
