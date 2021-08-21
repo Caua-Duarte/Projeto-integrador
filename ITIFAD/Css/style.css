@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body{
@@ -18,13 +19,7 @@ body{
     text-align: center;
 }
 
-.header{
 
-    text-align: center;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-
-}
 
 .separacao{
     padding: 1rem;
@@ -188,7 +183,8 @@ li{
 
 .logo{
 
-    width: 60%;
+    width: 90%;
+    margin: auto;
 
 }
 
@@ -227,14 +223,20 @@ li{
     float: right;
 }
 
-.vetor-header{
-    width: 20%;
-    margin: auto;
-    background-color: teal;
+.vetor-img-header{
+    width: 1.5rem;
 }
+.hover-vetor:hover {
+    background-color: #AED3F2;
+  }
 
 .list-vetor{
     text-align: center;
     width: 90%;
     margin: auto;
+}
+
+.btn-header{
+
+    padding: 0.2rem;
 }
