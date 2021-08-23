@@ -117,7 +117,7 @@ li{
 }
 
 .vetor{
-    width: 80%;
+    width: 20px;
     padding: 0.5rem;
     
 }
@@ -177,6 +177,7 @@ li{
 .vetores{
     padding: 0.51rem;
     text-align: center;
+    align-items: center;
     width: 90%;
     margin: auto;
 }
@@ -197,6 +198,8 @@ li{
 .lista-logo{
     display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     margin: auto;
 
@@ -239,4 +242,10 @@ li{
 .btn-header{
 
     padding: 0.2rem;
+}
+
+.vetor-footer{
+    width: 90%;
+    padding: 0.5rem;
+
 }
