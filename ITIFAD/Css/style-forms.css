@@ -16,12 +16,12 @@ input, label{
 }
 
 a{
-    color: maroon;
+    color: #AEB1F2;
 }
 
 body{
     padding-top: 5vh;
-    background-color: mediumpurple;
+    background-color: #AED3F2;
 }
 
 /* FORMULARIO */
@@ -47,6 +47,24 @@ form{
     justify-content: space-between;
 }
 
+.botao{
+    padding: 1rem;
+    width: 10%  ;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-voltar{
+    list-style-type: none;
+    text-decoration: unset;
+}
+
+.hover-vetor:hover {
+    background-color: #AEB1F2;
+    color: white;
+}
+
 .full-box{
     flex: 1 1 100%;
     position: relative;
@@ -68,6 +86,7 @@ label{
 input{
     border-bottom: 2px solid #adcbef;
     padding: 10px;
+    border-radius: 50px;
     font-size: 0.8rem;
     margin-bottom: 40px;
 }
@@ -77,12 +96,26 @@ input:focus{
 }
 
 input[type="submit"]{
-    background-color: mediumpurple;
-    color: white;
+    background-color: #AED3F2;
+    color: black;
     border: none;
     height: 40px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+input[type="button"]{
+    background-color: #AED3F2;
+    color: black;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input:hover{
+    background-color: #AEB1F2;
+    color: #fff;
 }
 
 #agreement{
