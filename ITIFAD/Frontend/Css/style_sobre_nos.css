@@ -99,6 +99,20 @@ li{
     padding: 1rem;
 }
 
+.movie{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+#video{
+    width: 80%;
+
+}
+
 .destaque{
     width: 80%;
     margin: auto;
