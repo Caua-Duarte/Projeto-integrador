@@ -101,11 +101,23 @@
             <!-- Vídeo ITIFAD -->
             <div class="movie">
                 
-                <video id="video"controls>
+                <video id="video" width="420">
     
                     <source src="../Movie/Video_Marketing_ITIFAD.mp4" type="video/mp4">
     
                 </video>
+
+                <div class="botao">
+                    <!-- Botões de controle -->
+                    <button onclick="playPause()"> |> || </button>
+                    <button onclick="telaCheia()">Tela cheia</button>
+                    <button onclick="ampliar()">Ampliar</button>
+                    <button onclick="minimizar()">Minimizar</button>
+                    <button onclick="normal()">Normal</button>
+                    <button onclick="volMais()">Volume +</button>
+                    <button onclick="volMenos()">Volume -</button>
+                    <button onclick="Mute()">Mute</button>
+                </div>
             </div>
 
             <div class="separacao"></div>  
@@ -206,6 +218,7 @@
     </div>
 </body>
 
+<script src="../JavaScript/main_movie.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </html>

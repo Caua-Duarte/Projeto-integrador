@@ -108,10 +108,11 @@ li{
     align-items: center;
 }
 
-#video{
-    width: 80%;
-
+button{
+    padding: 0.5rem;
+    background-color: rgb(160, 106, 180);
 }
+
 
 .destaque{
     width: 80%;
