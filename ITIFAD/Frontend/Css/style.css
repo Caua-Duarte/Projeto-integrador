@@ -45,8 +45,9 @@ li{
 
 .logo{
 
-    width: 90%;
-    margin: auto;
+    width: 50px;
+    border: 2px solid black;
+    padding: 1rem;
 
 }
 
@@ -61,6 +62,11 @@ li{
 
 .vetor-img-header{
     width: 1.5rem;
+}
+
+.icons{
+    text-align: center;
+    align-items: center;
 }
 
 /* CONFIGURAÇÕES MAIN */
