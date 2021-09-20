@@ -1,0 +1,254 @@
+/* CONFIGURAÇÕES GERAIS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+body{
+    width: 80%;
+    margin: auto;
+    background: transparent url('../Img/tomoko-uji-qzoSJlPxS9k-unsplash.jpg') no-repeat left bottom;}
+
+li{
+
+    border: none;
+    list-style-type: none;
+    text-decoration: unset;}
+
+#container{
+    background-color: #AED3F2;}
+
+#navbarNavDropdown{
+    text-align: center;}
+
+/* CONFIGURAÇÕES BORDA */
+
+.curved-border{
+    border-radius: 20px;
+}
+
+/* CONFIGURAÇÕES SEPARAÇÃO DE DIV */
+
+.separacao{
+    padding: 1rem;
+    width: 100%;
+    height: 80px;}
+
+/* CONFIGURAÇÕES SOMBRA */
+
+.sombra-div{
+    box-shadow: 0.2em 0.2em 0.5em #AEB1F2;
+}
+.shadow{
+    box-shadow: 0.2em 0.2em 0.5em rgb(0, 0, 0);
+}
+
+/* CONFIGURAÇÕES HEADER */
+
+.container-header{
+    width: 97%;
+    margin: auto;
+    padding-top: 0.5rem;
+}
+
+.logocrow{
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    margin-right: 0.5rem;
+}
+
+.vetor-h{
+    width: 50px;
+    padding: 0.5rem;
+
+}
+
+.hover-vetor:hover {
+    background-color: #AED3F2;
+}
+
+.btn-header{
+
+    padding: 0.2rem;
+}
+
+.vetor-img-header{
+    width: 1.5rem;
+}
+
+.icons{
+    text-align: center;
+    align-items: center;
+}
+
+/* CONFIGURAÇÕES MAIN */
+
+.img-foto{
+    width: 100%;
+    margin: auto;
+
+}
+
+.img-main{
+    width: 100%;
+    margin: auto;
+}
+
+.conteudo{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.separacao-bloco{
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+
+.titulo{
+    text-align: center;
+    
+}
+
+.destaque{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.paragrafo{
+    padding: 1rem;
+}
+
+.mais_vendidos{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.roupas-container .vetor-venda{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.preco{
+    padding: 0.5rem;
+    margin: auto;
+    text-align:center;
+}
+
+.separacao-venda{
+    padding: 1rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.venda{
+    background-color: whitesmoke;
+    width: 150px;
+    margin: auto;
+}
+
+.vetor-venda{
+    width: 100%;
+
+}
+
+.roupa-preco{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align:middle;
+    text-align: center ;
+}
+
+.icon-favi{
+    width: 50px;
+    text-align: center;
+    float: right;
+}
+
+.vetor-favi{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/* CONFIGURAÇÕES MAIN */
+/* CONFIGURAÇÕES FOOTER */
+
+.footer{
+    width: 97%;
+    margin: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.container-footer{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.rodape{
+    width: 33%;
+    padding: 0.2rem;
+    text-align: center;
+    height: 50%;
+
+}
+
+.sep_rodape{
+    padding: 1rem;
+}
+
+.titulo-h5{
+    padding: 0.5rem;
+}
+
+.logo-footer{
+    width: 200px;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.social-logo{
+    text-align: center;
+    padding: auto;
+}
+
+.vetores-footer{
+    padding: 0.5rem;
+    width: 90%;
+    margin: auto;
+}
+
+.lista-logo{
+    display: flex;
+    width: 90%;
+    margin: 0;
+
+}
+
+.vetor-footer{
+    width: 90%;
+    padding: 0.5rem;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CONFIGURAÇÕES FOOTER */
+
+
+
+.titulo1{
+    text-align: left;
+    padding: 1rem;
+}
+.titulo2{
+    text-align: right;
+    padding: 1rem;
+}
+
