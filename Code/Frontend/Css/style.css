@@ -15,11 +15,7 @@ li{
     list-style-type: none;
     text-decoration: unset;}
 
-#container{
-    background-color: #AED3F2;}
 
-#navbarNavDropdown{
-    text-align: center;}
 
 /* CONFIGURAÇÕES BORDA */
 
@@ -41,6 +37,16 @@ li{
 }
 .shadow{
     box-shadow: 0.2em 0.2em 0.5em rgb(0, 0, 0);
+}
+
+/* CONFIGURAÇÕES TITTLE */
+.titulo1{
+    text-align: left;
+    padding: 1rem;
+}
+.titulo2{
+    text-align: right;
+    padding: 1rem;
 }
 
 /* CONFIGURAÇÕES HEADER */
@@ -81,102 +87,7 @@ li{
     align-items: center;
 }
 
-/* CONFIGURAÇÕES MAIN */
 
-.img-foto{
-    width: 100%;
-    margin: auto;
-
-}
-
-.img-main{
-    width: 100%;
-    margin: auto;
-}
-
-.conteudo{
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-}
-
-.separacao-bloco{
-    border-radius: 20px;
-    padding: 1rem;
-    background-color: whitesmoke;
-}
-
-.titulo{
-    text-align: center;
-    
-}
-
-.destaque{
-    width: 80%;
-    margin: auto;
-    padding: 1rem;
-}
-
-.paragrafo{
-    padding: 1rem;
-}
-
-.mais_vendidos{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding: 1rem;
-}
-
-.roupas-container .vetor-venda{
-    width: 100%;
-    border-radius: 20px 20px 0px 0px ;
-}
-
-.preco{
-    padding: 0.5rem;
-    margin: auto;
-    text-align:center;
-}
-
-.separacao-venda{
-    padding: 1rem;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.venda{
-    background-color: whitesmoke;
-    width: 150px;
-    margin: auto;
-}
-
-.vetor-venda{
-    width: 100%;
-
-}
-
-.roupa-preco{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align:middle;
-    text-align: center ;
-}
-
-.icon-favi{
-    width: 50px;
-    text-align: center;
-    float: right;
-}
-
-.vetor-favi{
-    width: 100%;
-    padding: 0.5rem;
-}
-
-/* CONFIGURAÇÕES MAIN */
 /* CONFIGURAÇÕES FOOTER */
 
 .footer{
@@ -243,12 +154,5 @@ li{
 
 
 
-.titulo1{
-    text-align: left;
-    padding: 1rem;
-}
-.titulo2{
-    text-align: right;
-    padding: 1rem;
-}
+
 
